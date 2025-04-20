@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!----Style------>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section-center">
+      <!---Form-->
+      <form action="Grocery-form" class="grocery-form">
+        <p class="alert"></p>
+        <h3>Grocery List</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. Bread" />
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </form>
+      <!-----List------>
+      <div class="grocery-container">
+        <div class="grocery-list"></div>
+        <!-- <article class="grocey-item"></article> -->
+        <button type="button" class="clear-btn">Clear Items</button>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
